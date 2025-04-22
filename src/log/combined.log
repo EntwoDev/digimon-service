@@ -1,0 +1,281 @@
+[2025-04-19 11:50:51] ERROR: DigimonRepository Error: connectMySQL is not defined
+[2025-04-19 11:50:52] ERROR: DigimonRepository Error: connectMySQL is not defined
+[2025-04-19 11:50:55] ERROR: DigimonRepository Error: connectMySQL is not defined
+[2025-04-19 11:51:15] ERROR: DigimonRepository Error: connectMySQL is not defined
+[2025-04-19 11:51:15] ERROR: Monitoring Service Error: connectMySQL is not defined
+[2025-04-19 11:52:38] ERROR: DigimonRepository Error: mysqlDB is not defined
+[2025-04-19 11:52:38] ERROR: Monitoring Service Error: mysqlDB is not defined
+[2025-04-19 11:53:23] ERROR: DigimonRepository Error: mysql is not defined
+[2025-04-19 11:53:23] ERROR: Monitoring Service Error: mysql is not defined
+[2025-04-19 11:53:50] ERROR: DigimonRepository Error: mysql is not defined
+[2025-04-19 11:53:50] ERROR: Monitoring Service Error: mysql is not defined
+[2025-04-19 11:59:05] ERROR: DigimonRepository Error: (intermediate value) is not iterable
+[2025-04-19 11:59:05] ERROR: Monitoring Service Error: (intermediate value) is not iterable
+[2025-04-19 12:00:50] ERROR: DigimonRepository Error: (intermediate value) is not iterable
+[2025-04-19 12:00:50] ERROR: Monitoring Service Error: (intermediate value) is not iterable
+[2025-04-19 12:04:31] ERROR: DigimonRepository Error: (intermediate value) is not iterable
+[2025-04-19 12:04:31] ERROR: Monitoring Service Error: (intermediate value) is not iterable
+[2025-04-19 12:05:31] ERROR: DigimonRepository Error: (intermediate value) is not iterable
+[2025-04-19 12:05:31] ERROR: Monitoring Service Error: (intermediate value) is not iterable
+[2025-04-19 12:05:38] ERROR: DigimonRepository Error: (intermediate value) is not iterable
+[2025-04-19 12:05:38] ERROR: Monitoring Service Error: (intermediate value) is not iterable
+[2025-04-19 12:05:57] ERROR: DigimonRepository Error: (intermediate value) is not iterable
+[2025-04-19 12:05:57] ERROR: Monitoring Service Error: (intermediate value) is not iterable
+[2025-04-19 12:09:27] ERROR: DigimonRepository Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper
+[2025-04-19 12:09:27] ERROR: Monitoring Service Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper
+[2025-04-19 12:10:14] ERROR: DigimonRepository Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper
+[2025-04-19 12:10:14] ERROR: Monitoring Service Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper
+[2025-04-19 12:10:46] ERROR: DigimonRepository Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper
+[2025-04-19 12:10:46] ERROR: Monitoring Service Error: You have tried to call .then(), .catch(), or invoked await on the result of query that is not a promise, which is a programming error. Try calling con.promise().query(), or require('mysql2/promise') instead of 'mysql2' for a promise-compatible version of the query interface. To learn how to use async/await or Promises check out documentation at https://sidorares.github.io/node-mysql2/docs#using-promise-wrapper, or the mysql2 documentation at https://sidorares.github.io/node-mysql2/docs/documentation/promise-wrapper
+[2025-04-19 12:22:37] ERROR: Monitoring Service Error: logger is not defined
+[2025-04-19 12:23:04] ERROR: Oracle MaximoRepository Error: oracledb is not defined
+[2025-04-19 12:23:04] ERROR: Monitoring Service Error: oracledb is not defined
+[2025-04-19 12:23:23] ERROR: Oracle MaximoRepository Error: oracleDB.getConnection is not a function
+[2025-04-19 12:23:23] ERROR: Monitoring Service Error: oracleDB.getConnection is not a function
+[2025-04-19 12:27:03] ERROR: Oracle MaximoRepository Error: connectOracle is not defined
+[2025-04-19 12:27:03] ERROR: Monitoring Service Error: connectOracle is not defined
+[2025-04-19 12:27:20] ERROR: Oracle MaximoRepository Error: NJS-138: connections to this database server version are not supported by node-oracledb in Thin mode
+[2025-04-19 12:27:20] ERROR: Monitoring Service Error: NJS-138: connections to this database server version are not supported by node-oracledb in Thin mode
+[2025-04-19 13:34:43] ERROR: Oracle MaximoRepository Error: ORA-24454: client host name is not set
+[2025-04-19 13:34:43] ERROR: Monitoring Service Error: ORA-24454: client host name is not set
+[2025-04-19 13:38:43] ERROR: Oracle MaximoRepository Error: ORA-24454: client host name is not set
+[2025-04-19 13:38:43] ERROR: Monitoring Service Error: ORA-24454: client host name is not set
+[2025-04-19 13:40:39] ERROR: Oracle MaximoRepository Error: ORA-24454: client host name is not set
+[2025-04-19 13:40:39] ERROR: Monitoring Service Error: ORA-24454: client host name is not set
+[2025-04-19 13:42:25] ERROR: Oracle MaximoRepository Error: ORA-24454: client host name is not set
+[2025-04-19 13:42:25] ERROR: Monitoring Service Error: ORA-24454: client host name is not set
+[2025-04-19 13:45:56] ERROR: Oracle MaximoRepository Error: ORA-24454: client host name is not set
+[2025-04-19 13:45:56] ERROR: Monitoring Service Error: ORA-24454: client host name is not set
+[2025-04-19 13:47:49] ERROR: Oracle MaximoRepository Error: ORA-24454: client host name is not set
+[2025-04-19 13:47:49] ERROR: Monitoring Service Error: ORA-24454: client host name is not set
+[2025-04-19 13:56:04] ERROR: Oracle MaximoRepository Error: oracledb is not defined
+[2025-04-19 13:56:04] ERROR: Monitoring Service Error: oracledb is not defined
+[2025-04-19 14:05:03] ERROR: Oracle MaximoRepository Error: ORA-01036: illegal variable name/number
+[2025-04-19 14:05:03] ERROR: Monitoring Service Error: ORA-01036: illegal variable name/number
+[2025-04-19 14:06:12] ERROR: Oracle MaximoRepository Error: ORA-01036: illegal variable name/number
+[2025-04-19 14:06:12] ERROR: Monitoring Service Error: ORA-01036: illegal variable name/number
+[2025-04-19 14:07:03] ERROR: Oracle MaximoRepository Error: ORA-01036: illegal variable name/number
+[2025-04-19 14:07:03] ERROR: Monitoring Service Error: ORA-01036: illegal variable name/number
+[2025-04-19 14:34:28] ERROR: Oracle MaximoRepository Error: ORA-00911: invalid character
+[2025-04-19 14:34:28] ERROR: Monitoring Service Error: ORA-00911: invalid character
+[2025-04-19 15:36:30] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 15:45:53] ERROR: Monitoring Service Error: formatDate is not defined
+[2025-04-19 16:06:05] ERROR: Monitoring Service Error: bulan is not defined
+[2025-04-19 18:02:06] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:02:10] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:02:12] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:02:20] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:02:24] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:02:41] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:02:51] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:02:56] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:03:02] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:03:04] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:03:17] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:03:18] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:04:16] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:04:33] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:04:50] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:05:08] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:05:25] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:05:42] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:06:01] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:06:20] ERROR: Monitoring Service Error: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Object
+[2025-04-19 18:07:31] ERROR: Monitoring Service Error: data is not defined
+[2025-04-19 18:07:49] ERROR: Monitoring Service Error: data is not defined
+[2025-04-19 18:08:31] ERROR: Monitoring Service Error: Assignment to constant variable.
+[2025-04-19 18:09:44] ERROR: Monitoring Service Error: users is not defined
+[2025-04-19 18:09:44] ERROR: Monitoring Service Error: users is not defined
+[2025-04-19 18:09:48] ERROR: Monitoring Service Error: users is not defined
+[2025-04-19 18:14:51] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-19 18:15:15] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-19 18:16:39] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-19 18:17:40] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-19 18:18:54] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:01] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:06] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:11] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:16] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:21] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:26] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:31] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:36] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:41] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:46] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:51] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:19:56] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-19 18:22:04] ERROR: DigimonRepository Error: read ETIMEDOUT
+[2025-04-19 18:22:04] ERROR: Monitoring Service Error: read ETIMEDOUT
+[2025-04-20 14:01:05] ERROR: DigimonRepository Error: connect ETIMEDOUT
+[2025-04-20 14:01:05] ERROR: Monitoring Service Error: connect ETIMEDOUT
+[2025-04-20 14:01:06] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:02:30] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:10:43] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:10:43] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:11:02] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:12:16] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:12:44] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:12:46] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:12:46] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:12:46] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:13:22] ERROR: Monitoring Service Error: Network error: read EADDRNOTAVAIL
+[2025-04-20 14:15:12] ERROR: DigimonRepository Error: connect ETIMEDOUT
+[2025-04-20 14:15:12] ERROR: Monitoring Service Error: connect ETIMEDOUT
+[2025-04-20 14:15:13] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:16:14] ERROR: Oracle MaximoRepository Error: ORA-03113: end-of-file on communication channel
+[2025-04-20 14:16:14] ERROR: Monitoring Service Error: ORA-03113: end-of-file on communication channel
+[2025-04-20 14:16:41] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:16:41] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:18:16] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:18:33] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:22:22] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:24:38] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:25:25] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:27:44] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:44] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:52] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:27:53] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:28:10] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:28:17] ERROR: Oracle MaximoRepository Error: ORA-28547: connection to server failed, probable Oracle Net admin error
+[2025-04-20 14:28:17] ERROR: Monitoring Service Error: ORA-28547: connection to server failed, probable Oracle Net admin error
+[2025-04-20 14:29:48] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:30:13] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:32:01] ERROR: Monitoring Service Error: Network error: read ECONNRESET
+[2025-04-20 14:33:28] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:28] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:28] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:28] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:35] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:35] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:43] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:43] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:43] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:43] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:53] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:33:53] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:34:01] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:34:01] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:34:17] ERROR: Oracle MaximoRepository Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:34:17] ERROR: Monitoring Service Error: NJS-040: connection request timeout. Request exceeded "queueTimeout" of 60000
+[2025-04-20 14:34:23] ERROR: Oracle MaximoRepository Error: ORA-12637: Packet receive failed
+[2025-04-20 14:34:23] ERROR: Monitoring Service Error: ORA-12637: Packet receive failed
+[2025-04-20 14:36:28] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:36:37] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:36:38] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:36:51] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:37:04] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:37:09] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:37:09] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:37:10] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:37:23] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:37:26] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:37:27] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:37:48] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 14:38:03] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:41] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:42] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:43] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:43] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:48] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:48] ERROR: Oracle MaximoRepository Error: NJS-500: connection to the Oracle Database was broken
+DPI-1080: connection was closed by ORA-03113
+ORA-03113: end-of-file on communication channel
+Process ID: 584
+Session ID: 1174 Serial number: 4294995632
+[2025-04-20 16:04:48] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:50] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:52] ERROR: DigimonRepository Error: read ETIMEDOUT
+[2025-04-20 16:04:52] ERROR: Monitoring Service Error: read ETIMEDOUT
+[2025-04-20 16:04:56] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-20 16:04:56] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:04:59] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:05:00] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:05:01] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:05:07] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-20 16:05:09] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:05:11] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:32] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:34] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:42] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:51] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:52] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:52] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:53] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:56] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:09:59] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:34:13] ERROR: Monitoring Service Error: NJS-500: connection to the Oracle Database was broken
+DPI-1080: connection was closed by ORA-03113
+ORA-03113: end-of-file on communication channel
+Process ID: 584
+Session ID: 1174 Serial number: 4294995632
+[2025-04-20 16:34:29] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:34:32] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:49:35] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:49:35] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:49:41] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:49:48] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:49:49] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:50:00] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-20 16:54:39] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-21 11:43:05] ERROR: Monitoring Service Error: Network error: read EADDRNOTAVAIL
+[2025-04-21 11:44:16] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:44:25] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:44:30] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:44:35] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:44:40] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:44:45] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:44:50] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:44:55] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:00] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:05] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:10] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:15] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:20] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:25] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:30] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:36] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:45:51] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:46:51] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:46:56] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:01] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:11] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:16] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:21] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:26] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:31] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:36] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:41] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:46] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:51] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:47:56] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:48:01] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:48:11] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 11:48:21] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:22:48] ERROR: Monitoring Service Error: Network error: read ETIMEDOUT
+[2025-04-21 12:23:53] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:23:54] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:23:55] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:23:56] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:23:57] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:23:58] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:23:59] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:00] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:01] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:02] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:04] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:05] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:06] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:07] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:08] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
+[2025-04-21 12:24:09] ERROR: Monitoring Service Error: Network error: connect ETIMEDOUT 192.168.29.2:443
