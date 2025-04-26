@@ -10,6 +10,10 @@ app.use(express.json());
 app.use('/plamo', plamoRoutes);
 app.use('/monitoring', monitoringRoutes);
 
+app.get('/', (req, res) => {
+    res.send('digimon service');
+});
+
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
