@@ -1,3 +1,4 @@
 .env
 .env.prod
 src/log/
+.DS_Store

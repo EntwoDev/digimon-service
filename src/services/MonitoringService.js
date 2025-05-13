@@ -76,6 +76,23 @@ class MonitoringService {
 
                 if (resStat && resStat.stStatus == 1) {
                     bulan = await this.digimonRepository.loadSummary();
+                    data ={
+                        "0": loadnet[0],
+                        "1": loadnet[1],
+                        "2": loadnet[2],
+                        "daily": daily,
+                        'tnetprod':om.map(item => item.TARGETNETPRODU3/1000) ?? [],
+                        'tncf':om.map(item => item.TARGETCFU3) ?? [],
+                        "netprod": om.map(item => parseFloat(item.NETPROD3) / 1000) ?? [],
+                        "ncf": om.map(item => parseFloat(item.U3NCF)) ?? [],
+                        "nphr": om.map(item => parseFloat(item.NPHR3)) ?? [],
+                        "tnphr": om.map(item => parseFloat(item.TARGETNPHRU3)) ?? [],
+                        "tanggal": om.map(item => formatDate(item.TANGGAL)) ?? [],
+                        "averagenphr": avg[0] ?? null,
+                        "status": status ?? null,
+                        "bulan": bulan ?? [],
+                        "st": resStat.stStatus ?? null,
+                    };
                 } else {
                     bulan = this.monthData.map(async (item, key) => {
                         data = await this.maximoRepository.loadSummary(item.val);
@@ -84,22 +101,6 @@ class MonitoringService {
                         }
                     });
                 }
-
-                data ={
-                    "0": loadnet[0],
-                    "1": loadnet[1],
-                    "2": loadnet[2],
-                    "daily": daily,
-                    "netprod": om.map(item => parseFloat(item.NETPROD3) / 1000) ?? [],
-                    "ncf": om.map(item => parseFloat(item.U3NCF)) ?? [],
-                    "nphr": om.map(item => parseFloat(item.NPHR3)) ?? [],
-                    "tnphr": om.map(item => parseFloat(item.TARGETNPHRU3)) ?? [],
-                    "tanggal": om.map(item => formatDate(item.TANGGAL)) ?? [],
-                    "averagenphr": avg[0] ?? null,
-                    "status": status ?? null,
-                    "bulan": bulan ?? [],
-                    "st": resStat.stStatus ?? null,
-                };
 
                 res.write(`data: ${JSON.stringify(data)}\n\n`)
             } catch (error) {
