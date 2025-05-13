@@ -41,22 +41,34 @@ class MaximoRepository {
         try {
             const pool = await oracleDB();
             connection = await pool.getConnection();
-            const result = await connection.execute(`SELECT *
-                FROM (
-                    SELECT
-                        OMLAPORAN.NETPROD3,
-                        TO_CHAR(OMLAPORAN.U3NCF) AS U3NCF,
-                        OMLAPORAN.TARGETNPHRU3,
-                        OMLAPORAN.TANGGAL,
-                        CASE
-                            WHEN OMLAPORAN.NPHR3 = '0' THEN NULL
-                            ELSE OMLAPORAN.NPHR3
-                        END AS NPHR3
-                    FROM MAXIMO.OMLAPORAN
-                    WHERE TANGGAL IS NOT NULL
-                    ORDER BY TANGGAL DESC
-                )
-                WHERE ROWNUM <= 4`, [], { outFormat: oracledb.OUT_FORMAT_OBJECT });
+            const result = await connection.execute(`SELECT F3.*
+		FROM (
+			SELECT F2.*
+			FROM (
+				SELECT F1.*
+				FROM (
+					SELECT
+		OMLAPORAN.NETPROD3, CASE
+		WHEN OMLAPORAN.NPHR3='0' THEN NULL ELSE TO_CHAR(OMLAPORAN.U3NCF) 
+		END AS U3NCF, OMLAPORAN.TARGETNPHRU3, OMLAPORAN.TANGGAL,
+					CASE
+		WHEN OMLAPORAN.NPHR3='0' THEN NULL ELSE OMLAPORAN.NPHR3
+		END AS NPHR3,
+		CASE
+		WHEN OMLAPORAN.TARGETCFU3='0' THEN NULL ELSE OMLAPORAN.TARGETCFU3
+		END AS TARGETCFU3,
+		CASE
+		WHEN OMLAPORAN.TARGETNETPRODU3='0' THEN NULL ELSE
+		OMLAPORAN.TARGETNETPRODU3 
+		END AS TARGETNETPRODU3
+		FROM MAXIMO.OMLAPORAN
+					WHERE TANGGAL IS NOT NULL
+					ORDER BY TANGGAL DESC
+				) F1
+				WHERE ROWNUM <=4
+			) F2
+		) F3
+		`, [], { outFormat: oracledb.OUT_FORMAT_OBJECT });
             if (result.rows.length > 0) {
                 return result.rows
             }
@@ -129,7 +141,7 @@ class MaximoRepository {
             AND TO_CHAR(TANGGAL, 'MM') = :month
             AND NPHR3 != 0
             AND ROWNUM = 1
-            ORDER BY TANGGAL DESC`, {month:month.padStart(2, '0')}, { outFormat: oracledb.OUT_FORMAT_OBJECT });
+            ORDER BY TANGGAL DESC`, { month: month.padStart(2, '0') }, { outFormat: oracledb.OUT_FORMAT_OBJECT });
             if (result.rows.length > 0) {
                 return result.rows
             }
