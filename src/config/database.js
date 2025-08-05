@@ -3,9 +3,13 @@ const oracledb = require('oracledb');
 const mysql = require('mysql2/promise');
 require('dotenv').config();
 
-oracledb.initOracleClient({
-    libDir: '/Users/mac/instantclient_19_16'  // path lokasi Instant Client kamu
-});
+if(process.env.OS_SERVER === 'mac') {
+    oracledb.initOracleClient({
+        libDir: '/Users/mac/instantclient_19_16'  // path lokasi Instant Client kamu
+    });
+}else if(process.env.OS_SERVER === 'linux') {
+    oracledb.initOracleClient({ libDir: '/opt/oracle/instantclient_23_7' });
+}
 
 // MSSQL Configuration
 const mssqlConfig = {

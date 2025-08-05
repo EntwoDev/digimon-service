@@ -1,10 +1,11 @@
-const { mysqlDB } = require("../config/database");
+const { mysqlDB, mssqlDB } = require("../config/database");
 const logger = require("../utils/logger");
+
 
 class DigimonRepository {
     async loadStatus() {
         try {
-            const pool = await mysqlDB();
+            const pool = await mssqlDB();
             const [rows] = await pool.query('SELECT * FROM vw_status limit 1');
 
             return rows.length > 0 ? rows[0] : null;
@@ -16,7 +17,7 @@ class DigimonRepository {
 
     async loadResStat() {
         try {
-            const pool = await mysqlDB();
+            const pool = await mssqlDB();
             const [rows] = await pool.query('SELECT stStatus FROM tblt_statussumary WHERE stId = 1 limit 1');
 
             return rows.length > 0 ? rows[0] : null;
@@ -28,7 +29,7 @@ class DigimonRepository {
 
     async loadSummary() {
         try {
-            const pool = await mysqlDB();
+            const pool = await mssqlDB();
             const [rows] = await pool.query('SELECT * FROM vw_sumary');
 
             return rows.length > 0 ? rows : null;
