@@ -6,7 +6,7 @@ class DigimonRepository {
     async loadStatus() {
         try {
             const pool = await mssqlDB();
-            const [rows] = await pool.query('SELECT * FROM vw_status limit 1');
+            const [rows] = await pool.query('SELECT TOP 1 * FROM [digital-monitoring].[vw_status]');
 
             return rows.length > 0 ? rows[0] : null;
         } catch (err) {
@@ -18,7 +18,7 @@ class DigimonRepository {
     async loadResStat() {
         try {
             const pool = await mssqlDB();
-            const [rows] = await pool.query('SELECT stStatus FROM tblt_statussumary WHERE stId = 1 limit 1');
+            const [rows] = await pool.query('SELECT TOP 1 stStatus FROM [digital-monitoring].[tblt_statussumary] WHERE stId = 1');
 
             return rows.length > 0 ? rows[0] : null;
         } catch (err) {
@@ -30,7 +30,7 @@ class DigimonRepository {
     async loadSummary() {
         try {
             const pool = await mssqlDB();
-            const [rows] = await pool.query('SELECT * FROM vw_sumary');
+            const [rows] = await pool.query('SELECT * FROM [digital-monitoring].[vw_sumary]');
 
             return rows.length > 0 ? rows : null;
         } catch (err) {
