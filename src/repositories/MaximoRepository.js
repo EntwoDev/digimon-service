@@ -168,7 +168,7 @@ class MaximoRepository {
                 WHERE ROWNUM <= 1
                 `,
                 {
-                    month: month.padStart(2, "0"),
+                    month: String(month).padStart(2, "0"),
                 },
                 {
                     outFormat: oracledb.OUT_FORMAT_OBJECT,
