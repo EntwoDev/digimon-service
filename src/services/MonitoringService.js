@@ -32,6 +32,26 @@ class MonitoringService {
         this.activeClients = 0;
     }
 
+    async loadPlamoSafely(clientId) {
+        try {
+            const items = (await this.plamoRepository.loadNet()) || [];
+            const plamoMap = {};
+            if (Array.isArray(items)) {
+                items.forEach((item, index) => {
+                    plamoMap[index] = item;
+                });
+            }
+            return plamoMap;
+        } catch (err) {
+            logger.throttledError(
+                'monitoring-plamo-fetch',
+                `PLAMO/PI fetch error: ${err.message}`,
+                { clientId }
+            );
+            return {};
+        }
+    }
+
     async getData(res, reqMeta = {}) {
         this.activeClients += 1;
         const clientId = `${Date.now()}-${Math.random().toString(36).substring(2, 7)}`;
@@ -51,12 +71,16 @@ class MonitoringService {
                     const om = (await this.maximoRepository.loadNetProdToday()) || [];
                     const avg = (await this.maximoRepository.loadAvg()) || [];
                     const resStat = (await this.digimonRepository.loadResStat()) ?? null;
+                    // Data realtime PI/PLAMO (NET POWER UNIT 3 kW/MW). Kegagalan jaringan ke PI Server
+                    // tidak boleh menggagalkan seluruh payload monitoring, jadi di-catch terpisah.
+                    const plamo = await this.loadPlamoSafely(clientId);
                     let bulan = [];
                     let data = {};
 
                     if (resStat && resStat.stStatus == 1) {
                         bulan = (await this.digimonRepository.loadSummary()) || [];
                         data = {
+                            ...plamo,
                             daily: daily,
                             tnetprod: om.map((item) => item.TARGETNETPRODU3 / 1000) ?? [],
                             tncf: om.map((item) => item.TARGETCFU3) ?? [],

@@ -55,6 +55,13 @@ const sampleOmRow = {
 };
 
 function stubRepositories(overrides = {}) {
+    monitoringService.plamoRepository = {
+        loadNet: async () => [
+            { name: 'NET POWER UNIT 3 kW', value: 343712.938, source: 'pi' },
+            { name: 'NET POWER UNIT 3 MW', value: 343.71, source: 'pi' },
+        ],
+        ...overrides.plamo,
+    };
     monitoringService.digimonRepository = {
         loadStatus: async () => [{ namaStatus: 'NORMAL' }],
         loadResStat: async () => ({ stStatus: 1 }),
@@ -134,6 +141,24 @@ describe('services/MonitoringService', () => {
         assert.deepEqual(payload.tanggal, ['16-04-2025']);
         assert.equal(payload.st, 1);
         assert.deepEqual(payload.averagenphr, { AVERAGE: '3034.95' });
+
+        // Verifikasi loadNet PLAMO di-merge ke payload utama
+        assert.deepEqual(payload["0"], { name: 'NET POWER UNIT 3 kW', value: 343712.938, source: 'pi' });
+        assert.deepEqual(payload["1"], { name: 'NET POWER UNIT 3 MW', value: 343.71, source: 'pi' });
+    });
+
+    test('melanjutkan payload normal meski PI/PLAMO timeout atau error', async () => {
+        stubRepositories({ plamo: { loadNet: async () => { throw new Error('Timeout PI'); } } });
+        const res = new FakeRes();
+
+        await monitoringService.getData(res, {});
+        await new Promise((r) => setTimeout(r, 1200));
+        res.emit('close');
+
+        const payload = res.lastData();
+        assert.ok(payload, 'payload SSE harus terkirim');
+        assert.equal(payload["0"], undefined, 'Data PI/PLAMO harusnya kosong');
+        assert.deepEqual(payload.tnetprod, [9405160 / 1000], 'Data Maximo lainnya tetap tersedia');
     });
 
     test('fallback ke summary Maximo per bulan saat stStatus != 1', async () => {
