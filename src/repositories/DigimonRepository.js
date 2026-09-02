@@ -32,7 +32,7 @@ class DigimonRepository {
         try {
             const pool = await mssqlDB();
             const result = await pool.request()
-                .query("SELECT * FROM [digital-monitoring].[vw_sumary]");
+                .query("SELECT * FROM [digital-monitoring].[vw_sumary] ORDER BY [sumBulan] ASC");
 
             return result.recordset.length > 0 ? result.recordset : null;
         } catch (err) {
