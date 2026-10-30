@@ -4,7 +4,7 @@
   "description": "digital monitoring s2p u3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test tests/unit/**/*.test.js",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
@@ -26,6 +26,7 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.14.0",
     "oracledb": "^6.8.0",
-    "winston": "^3.17.0"
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   }
 }
